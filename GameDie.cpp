@@ -27,6 +27,7 @@ GameDie::GameDie(unsigned int num) {
 }
 
 // generate a random number between 1-n where n is the counter size
+// Adding a dummy commit to start linter
 // (inclusive) and return it
 int GameDie::roll() {
     int roll = rand_r() % roll_counter.size();
